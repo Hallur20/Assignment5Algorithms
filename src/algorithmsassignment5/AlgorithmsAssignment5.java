@@ -25,6 +25,13 @@ public class AlgorithmsAssignment5 {
         for (int i = 0; i < textFileList.size(); i++) {
             System.out.println(textFileList.get(i));
         }
+        
+        //plan =
+        // lav reglerne for a-z, deres indexes skal være 0-26
+        // hver gang en liste laves, skal de have disse keys med tomme values til at starte med.
+        // når et nyt ord sættes ind, så skal for længden af ordet sættes det antal lister ind som sub lists, og hver
+        // liste skal have en value (value er antal gange et ord har henten en værdi (feks 1 gang, nu er det 2) fra et sidste bogstav
+        //i et ord. Roden har null værdi (et ord med ingen bogstaver).
     }
     
 }
