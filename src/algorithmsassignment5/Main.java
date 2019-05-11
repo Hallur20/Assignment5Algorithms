@@ -12,19 +12,22 @@ import java.util.ArrayList;
  *
  * @author hallur
  */
-public class AlgorithmsAssignment5 {
+public class Main {
 
     /**
      * @param args the command line arguments
      */
     private static ArrayList<String> textFileList = new ArrayList<>();
     public static void main(String[] args) throws IOException {
-        FileReaderLogic frl = new FileReaderLogic();
+        /*FileReaderLogic frl = new FileReaderLogic();
         frl.readFile(textFileList);
         
         for (int i = 0; i < textFileList.size(); i++) {
             System.out.println(textFileList.get(i));
-        }
+        }*/
+        
+        Logic l = new Logic();
+        l.insertWord("hej");
         
         //plan =
         // lav reglerne for a-z, deres indexes skal være 0-26
