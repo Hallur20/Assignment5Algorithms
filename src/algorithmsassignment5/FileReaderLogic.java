@@ -30,7 +30,8 @@ public class FileReaderLogic {
             for (int j = 0; j < arr.length; j++) {
 
                 if (!arr[j].isEmpty()) {
-                    arr[j] = arr[j].replaceAll("[^a-zA-az']+", "");
+                    arr[j] = arr[j].replaceAll("[^a-zA-Z']+", "");
+                    //arr[j] = arr[j].replaceAll("[^\\p{Alpha}\\p{Digit}]+","");
                     if (!arr[j].isEmpty()) {
                         textFileList.add(arr[j].toLowerCase());
                     }
