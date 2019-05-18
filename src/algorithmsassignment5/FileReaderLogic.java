@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package algorithmsassignment5;
 
 import java.io.FileNotFoundException;
@@ -14,12 +9,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/**
- *
- * @author hallur
- */
 public class FileReaderLogic {
-     public void readFile(ArrayList<String> textFileList) throws FileNotFoundException, IOException {
+
+    public void readFile(ArrayList<String> textFileList) throws FileNotFoundException, IOException {
         List<String> lines;
         lines = Collections.emptyList();
         lines = Files.readAllLines(Paths.get(System.getProperty("user.dir") + "/src/File/Shakespeare_Complete_Works.txt"), StandardCharsets.UTF_8);
@@ -31,7 +23,6 @@ public class FileReaderLogic {
 
                 if (!arr[j].isEmpty()) {
                     arr[j] = arr[j].replaceAll("[^a-zA-Z']+", "");
-                    //arr[j] = arr[j].replaceAll("[^\\p{Alpha}\\p{Digit}]+","");
                     if (!arr[j].isEmpty()) {
                         textFileList.add(arr[j].toLowerCase());
                     }
@@ -39,5 +30,5 @@ public class FileReaderLogic {
             }
         }
         System.out.println("job complete");
-}
+    }
 }

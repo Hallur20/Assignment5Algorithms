@@ -1,17 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package algorithmsassignment5;
 
 import java.util.Arrays;
 import jdk.nashorn.internal.ir.TryNode;
 
-/**
- *
- * @author hallur
- */
 public class Trie {
 
     private char letter;
@@ -110,30 +102,19 @@ public class Trie {
         }
         return -1;
     }
- 
 
     public void getWordQuantity(String word, Trie trie) {
-   
+
         for (int i = 0; i < word.length(); i++) {
             char letter = word.charAt(i);
             int index = indexOf(letter);
-            if(trie.getTrieList()[index] == null){
+            if (trie.getTrieList()[index] == null) {
                 System.out.println("the word does not exist");
                 return;
             }
             trie = trie.getTrieList()[index];
         }
         System.out.print(trie.getValue());
-        /*if (!word.isEmpty()) {
-            char letter = word.charAt(0);
-            int index = indexOf(letter);
-            trie = getTrieList()[index];
-            trie.getWordQuantity(word.substring(1));
-            System.out.println(trie.getLetter());
-            System.out.println(trie.getValue());
-           
-        }*/
-        //System.out.println(trie.getValue());
     }
 
     @Override
