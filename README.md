@@ -32,7 +32,9 @@ A point of approvement worth mentioning is the usage of threads in order to opti
 Another point of discussion in the group was the of the library provided by the booksite, since we thought it would give us experience we wouldn’t have gotten otherwise. 
 The last point of improvement could be alternative implementations of text mining, since it would cast a light on what else text mining could be used for, and give us an idea of its application in other problem solvings. 
 
-
-draw a figure example 
+first image shows when we insert a word to the trie
+<img src="https://raw.githubusercontent.com/Hallur20/Assignment5Algorithms/master/Put.png"/>
+second image shows when we search for the quantity for a word
+<img src="https://raw.githubusercontent.com/Hallur20/Assignment5Algorithms/master/Search.png"/>
 
 
