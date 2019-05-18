@@ -20,7 +20,7 @@ Furthermore the <a href="https://github.com/Hallur20/Assignment5Algorithms/blob/
 
 <img src="https://raw.githubusercontent.com/Hallur20/Assignment5Algorithms/master/Put.png"/>
 
-<h2>The second image shows when we search for the quantity for a word<7h2>
+<h2>The second image shows when we search for the quantity for a word<h2>
 <img src="https://raw.githubusercontent.com/Hallur20/Assignment5Algorithms/master/Search.png"/>
  
 <h1>StopWatch results <span class="emoji">⌚</span></h1>
