@@ -5,6 +5,8 @@
  */
 package algorithmsassignment5;
 
+import edu.princeton.cs.algs4.StdOut;
+import edu.princeton.cs.algs4.Stopwatch;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -24,12 +26,19 @@ public class Main {
         Trie trie = new Trie();
         Scanner scanner = new Scanner(System.in);
         FileReaderLogic frl = new FileReaderLogic();
+        Stopwatch timer1 = new Stopwatch();
+        double sum1 = 0.0;
         frl.readFile(textFileList);
+        double time1 = timer1.elapsedTime();
+        StdOut.printf("%e (%.2f seconds) by reading file\n", sum1, time1);
 
+        Stopwatch timer2 = new Stopwatch();
+        double sum2 = 0.0;
         for (int i = 0; i < textFileList.size(); i++) {
             trie.put(textFileList.get(i));
         }
-
+        double time2 = timer2.elapsedTime();
+        StdOut.printf("%e (%.2f seconds) by setting data into the trie\n", sum2, time2);
         /* trie.put("hej");
        trie.put("hej");
        trie.put("hej");

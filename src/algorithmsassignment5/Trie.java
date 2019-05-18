@@ -90,7 +90,6 @@ public class Trie {
         currLettersUsedIndex++;
         setLetter(letter);
         int index = indexOf(letter);
-        System.out.println(index + " : " + letter);
         setIndex(index);
         if (trieList == null) {
             trieList = new Trie[27];
