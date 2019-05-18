@@ -1,4 +1,3 @@
-
 package algorithmsassignment5;
 
 import java.util.Arrays;
@@ -109,12 +108,12 @@ public class Trie {
             char letter = word.charAt(i);
             int index = indexOf(letter);
             if (trie.getTrieList()[index] == null) {
-                System.out.println("the word does not exist");
+                System.out.println("the world"+" "+"'"+word+"'"+" " + "does not exist");
                 return;
             }
             trie = trie.getTrieList()[index];
         }
-        System.out.print(trie.getValue());
+        System.out.println(word + " " + "is mentioned" + " " + trie.getValue() + " " + "times");
     }
 
     @Override
