@@ -1,6 +1,6 @@
 # Assignment5Algorithms
 
-what is text mining and what do it have to do with tries.
+<h1>what is text mining and what do it have to do with tries.</h1>
 
 Text mining is a tool used for organisering text data, and displaying it in numeric data. It is used to achieve, explor, and analyze a large amounts of unstructured data which would help saving time and resources by performing.
 Trie data structure is on of the methodologies which can be used for text mining. It uses a number of nested lists that are indexed in length of the desired symbols that the text should contain. For example, the english alphabet which contains 25 letter, so the length of the trie-list would be 25 (0-25). 
