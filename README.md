@@ -37,5 +37,6 @@ first image shows when we insert a word to the trie
 second image shows when we search for the quantity for a word
 <img src="https://raw.githubusercontent.com/Hallur20/Assignment5Algorithms/master/Search.png"/>
 
-<h1>Conclution</h1>
+<h1>Conclusion</h1>
+We are satisifed with the results and 
 
