@@ -1,12 +1,12 @@
 # Assignment5Algorithms
 
-<h1>Text mining with Tries. <span class="emoji">⛏️</span></h1>
+<h1>Text mining with Tries. <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/samsung/161/pick_26cf.png" srcset="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/samsung/161/pick_26cf.png 2x" alt="Pick on Samsung One UI 1.0" width="108" height="108"></h1>
 
 <p>Text mining is a tool used for organisering text data, and displaying it in numeric data. It is used to achieve, explor, and analyze a large amounts of unstructured data which would help saving time and resources by performing.
 Trie data structure is on of the methodologies which can be used for text mining. It uses a number of nested lists that are indexed in length of the desired symbols that the text should contain. For example, the english alphabet which contains 25 letter, so the length of the trie-list would be 25 (0-25). 
  When we insert a word, it goes through one symbol a time. When the last symbol is reached, then we can insert a numeric value. </p>
 
-<h1>What we made and why</h1>
+<h1>Software Setup</h1>
 
 <p>The software starts with reading the data from <a href="https://github.com/Hallur20/Assignment5Algorithms/blob/master/src/File/Shakespeare_Complete_Works.txt">Shakespeare_Complete_Works.txt</a> file then adding the data in to a list after removing the unneeded characters. The list contains the data from the file which contains only the English alphabet a-z in lowercase, as well as apostrophe.
 
