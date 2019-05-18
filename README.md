@@ -16,17 +16,15 @@ The software starts with reading the data from <a href="https://github.com/Hallu
 
 The software contains a <a href="https://github.com/Hallur20/Assignment5Algorithms/blob/master/src/algorithmsassignment5/Trie.java">“Trie”</a> class which contains the object needed to implement a Trie, it also contains a indexOf method that takes a char in the parmeter, then it indexes it , the chat could be one of the english alphabet (a-z in to 0-25) and it also indexs the apostrophe into the number 26.
 
-The Trie class contains also a “put” method which takes a String (word) in the parameter after that it takes the word to deal it into chars, after that it uses the indexOf() method to indexs the outcome chars we got from the String word, after the indexing we then find the position in the trie-list, where it put a new “Trie”, and it continues doing that until it reaches the end of the String(word). When it reaches this point it well add a value, if there is already a value in case the word has been mentioned before so it well adds 1 to the value.
+The <a href="https://github.com/Hallur20/Assignment5Algorithms/blob/master/src/algorithmsassignment5/Trie.java">“Trie”</a> class contains also a “put” method which takes a String (word) in the parameter after that it takes the word to deal it into chars, after that it uses the indexOf() method to indexs the outcome chars we got from the String word, after the indexing we then find the position in the trie-list, where it put a new “Trie”, and it continues doing that until it reaches the end of the String(word). When it reaches this point it well add a value, if there is already a value in case the word has been mentioned before so it well adds 1 to the value.
 
-Furthermore the Trie class also contains a “get” method which makes it possible to search for a word in the trie, and then get the value of that word in return. The value in this case is the number of mentions it has in the complete book of Shakespeare, for example the word “be” is mentioned “10” times in the Shakespeare_Complete_Works.txt file.  
-
-
+Furthermore the <a href="https://github.com/Hallur20/Assignment5Algorithms/blob/master/src/algorithmsassignment5/Trie.java">“Trie”</a> class also contains a “get” method which makes it possible to search for a word in the trie, and then get the value of that word in return. The value in this case is the number of mentions it has in the complete book of Shakespeare, for example the word “be” is mentioned “10” times in the Shakespeare_Complete_Works.txt file.  
 
 <h1>StopWatch results</h1>
 
-When using StopWatch, we were surprised on the results. It took 0.49 seconds to read the file, and 0.13 seconds to insert the words into our trie.
+We used "StopWatch" to time out the execution, we were surprised on the results. It took 0.49 seconds to read the file, and 0.13 seconds to insert the words into our trie.
 
-<h1>How to improve</h1>
+<h1>Could improve</h1>
 
 A point of approvement worth mentioning is the usage of threads in order to optimize the speed of the process. 
 Another point of discussion in the group was the of the library provided by the booksite, since we thought it would give us experience we wouldn’t have gotten otherwise. 
