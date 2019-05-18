@@ -38,7 +38,7 @@ public class Main {
                     continue;
                 }
                   if (input.matches(".*[^a-zA-Z']+.*")) {
-                    System.out.println("you can use special-characters only &apostrophe");
+                    System.out.println("you can not use special-characters only apostrophe");
                     continue;
                 }
                 trie.getWordQuantity(input, trie);
