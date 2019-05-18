@@ -37,6 +37,10 @@ public class Main {
                     System.out.println("you can not type numbers only type words");
                     continue;
                 }
+                  if (input.matches(".*[^a-zA-Z']+.*")) {
+                    System.out.println("you can use special-characters only &apostrophe");
+                    continue;
+                }
                 trie.getWordQuantity(input, trie);
             } else {
                 break;
