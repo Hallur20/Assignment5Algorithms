@@ -25,7 +25,7 @@ Furthermore the <a href="https://github.com/Hallur20/Assignment5Algorithms/blob/
  
 <h1>StopWatch results <span class="emoji">⌚</span></h1>
 
-<p> We used "StopWatch" to time out the execution, we were surprised on the results. It took 0.49 seconds to read the file, and 0.13 seconds to insert the words into our trie.</p>
+<p> We used "StopWatch" to time out the execution, we were surprised on the results. It took 0.49 seconds to read the file, and 0.13 seconds to insert the words into our trie, and it take 0.3 secounds seraching in the trie, which is to fast.</p>
 
 <h1>Could improve <span class="emoji">💡</span></h1>
 
