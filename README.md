@@ -12,7 +12,7 @@ Trie data structure is on of the methodologies which can be used for text mining
 
 <h1>What we made and why</h1>
 
-The software starts with reading the data from Shakespeare_Complete_Works.txt file then adding the data in to a list after removing the unneeded characters. The list contains the data from the file which contains only the English alphabet a-z in lowercase, as well as apostrophe.
+The software starts with reading the data from <a href="https://github.com/Hallur20/Assignment5Algorithms/blob/master/src/File/Shakespeare_Complete_Works.txt">Shakespeare_Complete_Works.txt</a> file then adding the data in to a list after removing the unneeded characters. The list contains the data from the file which contains only the English alphabet a-z in lowercase, as well as apostrophe.
 
 The software contains a “Trie” class which contains the object needed to implement a Trie, it also contains a indexOf method that takes a char in the parmeter, then it indexes it , the chat could be one of the english alphabet (a-z in to 0-25) and it also indexs the apostrophe into the number 26.
 
@@ -37,4 +37,5 @@ first image shows when we insert a word to the trie
 second image shows when we search for the quantity for a word
 <img src="https://raw.githubusercontent.com/Hallur20/Assignment5Algorithms/master/Search.png"/>
 
+<h1>Conclution</h1>
 
