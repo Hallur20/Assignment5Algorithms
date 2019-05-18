@@ -16,20 +16,23 @@ The <a href="https://github.com/Hallur20/Assignment5Algorithms/blob/master/src/a
 
 Furthermore the <a href="https://github.com/Hallur20/Assignment5Algorithms/blob/master/src/algorithmsassignment5/Trie.java">“Trie”</a> class also contains a “get” method which makes it possible to search for a word in the trie, and then get the value of that word in return. The value in this case is the number of mentions it has in the complete book of Shakespeare, for example the word “be” is mentioned “10” times in the Shakespeare_Complete_Works.txt file.  </p>
 
+<h2>The first image shows when we insert a word to the trie</h2>
+
+<img src="https://raw.githubusercontent.com/Hallur20/Assignment5Algorithms/master/Put.png"/>
+
+<h2>The second image shows when we search for the quantity for a word<7h2>
+<img src="https://raw.githubusercontent.com/Hallur20/Assignment5Algorithms/master/Search.png"/>
+ 
 <h1>StopWatch results <span class="emoji">⌚</span></h1>
 
-We used "StopWatch" to time out the execution, we were surprised on the results. It took 0.49 seconds to read the file, and 0.13 seconds to insert the words into our trie.
+<p> We used "StopWatch" to time out the execution, we were surprised on the results. It took 0.49 seconds to read the file, and 0.13 seconds to insert the words into our trie.</p>
 
 <h1>Could improve <span class="emoji">💡</span></h1>
 
 <p> A point of approvement worth mentioning is the usage of threads in order to optimize the speed of the process. 
 Another point of discussion in the group was the of the library provided by the booksite, since we thought it would give us experience we wouldn’t have gotten otherwise. 
-The last point of improvement could be alternative implementations of text mining, since it would cast a light on what else text mining could be used for, and give us an idea of its application in other problem solvings. 
+The last point of improvement could be alternative implementations of text mining, since it would cast a light on what else text mining could be used for, and give us an idea of its application in other problem solvings.</p> 
 
-first image shows when we insert a word to the trie
-<img src="https://raw.githubusercontent.com/Hallur20/Assignment5Algorithms/master/Put.png"/>
-second image shows when we search for the quantity for a word
-<img src="https://raw.githubusercontent.com/Hallur20/Assignment5Algorithms/master/Search.png"/> </p>
 
 <h1>Conclusion <g-emoji class="g-emoji" alias="memo" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png">📝</g-emoji></h1>
 
