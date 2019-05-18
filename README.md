@@ -10,7 +10,7 @@ Trie data structure is on of the methodologies which can be used for text mining
  When we insert a word, it goes through one symbol a time. When the last symbol is reached, then we can insert a numeric value. 
 
 
-what we made and why (Contributions)
+<h1>What we made and why</h1>
 
 The software starts with reading the data from Shakespeare_Complete_Works.txt file then adding the data in to a list after removing the unneeded characters. The list contains the data from the file which contains only the English alphabet a-z in lowercase, as well as apostrophe.
 
@@ -22,11 +22,11 @@ Furthermore the Trie class also contains a “get” method which makes it possi
 
 
 
-finding (take timing then what we conclude of it)
+<h1>StopWatch results</h1>
 
 When using StopWatch, we were surprised on the results. It took 0.49 seconds to read the file, and 0.13 seconds to insert the words into our trie.
 
-what we could use to make it better = (research question)
+<h1>How to improve</h1>
 
 A point of approvement worth mentioning is the usage of threads in order to optimize the speed of the process. 
 Another point of discussion in the group was the of the library provided by the booksite, since we thought it would give us experience we wouldn’t have gotten otherwise. 
