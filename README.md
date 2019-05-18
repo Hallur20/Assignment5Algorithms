@@ -2,7 +2,7 @@
 
 <h1>Text mining with Tries <span class="emoji">⛏️</span></h1>
 
-<p>Text mining is a tool used for organisering text data, and displaying it in numeric data. It is used to achieve, explor, and analyze a large amounts of unstructured data which would help saving time and resources by performing.
+<p>Text mining is a tool used for organisering text data, and displaying it in numeric data. It is used to achieve, explore, and analyze a large amounts of unstructured data which would help saving time and resources by performing.
 Trie data structure which also known for digital search tree structure is on of the methodologies which can be used for text mining that is based on the prefix of a string. It uses a number of nested lists that are indexed in length of the desired symbols that the text should contain. For example, the english alphabet which contains 26 letter, so the length of the trie-list would be 26 (0-26). 
  When we insert a word, it goes through one symbol a time. When the last symbol is reached, then we can insert a numeric value. </p>
 
