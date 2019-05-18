@@ -3,7 +3,7 @@
 <h1>Text mining with Tries <span class="emoji">⛏️</span></h1>
 
 <p>Text mining is a tool used for organisering text data, and displaying it in numeric data. It is used to achieve, explor, and analyze a large amounts of unstructured data which would help saving time and resources by performing.
-Trie data structure which also known for digital search tree structure is on of the methodologies which can be used for text mining that is based on the prefix of a string.. It uses a number of nested lists that are indexed in length of the desired symbols that the text should contain. For example, the english alphabet which contains 25 letter, so the length of the trie-list would be 25 (0-25). 
+Trie data structure which also known for digital search tree structure is on of the methodologies which can be used for text mining that is based on the prefix of a string. It uses a number of nested lists that are indexed in length of the desired symbols that the text should contain. For example, the english alphabet which contains 26 letter, so the length of the trie-list would be 26 (0-26). 
  When we insert a word, it goes through one symbol a time. When the last symbol is reached, then we can insert a numeric value. </p>
 
 <h1>Software Setup <span class="emoji">👨‍💻</span></h1>
@@ -36,6 +36,5 @@ The last point of improvement could be alternative implementations of text minin
 
 <h1>Conclusion <g-emoji class="g-emoji" alias="memo" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png">📝</g-emoji></h1>
 
-<p>We would like to briefly conclude that Trie is an alternative data structure for data mining algorithms used to store strings that can be visualized like a graph, which can be useful for fast retrieval on large data sets as searching  in a unorganized text data. We conclude also that Trie data structure is very similar to Binary Tree
- 
- Apart from that, it also works quiet fast, which enables lots of results in a very short time. </p>
+<p>We would like to briefly conclude that Trie is an alternative data structure for data mining algorithms used to store strings that can be visualized like a graph, which can be useful for fast retrieval on large data sets as searching  in a unorganized text data. We conclude also that Trie data structure is very similar to Binary Tree.
+We conclude that if we want to measure the time complexity of inserting from a trie would be depended on the length of the word a that’s well be inserted to the trie, and the number of total words, n, which would look like <strong>O(an)</strong>.</p>
