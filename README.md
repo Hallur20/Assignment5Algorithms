@@ -14,7 +14,7 @@ The software contains a <a href="https://github.com/Hallur20/Assignment5Algorith
 
 The <a href="https://github.com/Hallur20/Assignment5Algorithms/blob/master/src/algorithmsassignment5/Trie.java">“Trie”</a> class contains also a “put” method which takes a String (word) in the parameter after that it takes the word to deal it into chars, after that it uses the indexOf() method to indexs the outcome chars we got from the String word, after the indexing we then find the position in the trie-list, where it put a new “Trie”, and it continues doing that until it reaches the end of the String(word). When it reaches this point it well add a value, if there is already a value in case the word has been mentioned before so it well adds 1 to the value.
 
-Furthermore the <a href="https://github.com/Hallur20/Assignment5Algorithms/blob/master/src/algorithmsassignment5/Trie.java">“Trie”</a> class also contains a “get” method which makes it possible to search for a word in the trie, and then get the value of that word in return. The value in this case is the number of mentions it has in the complete book of Shakespeare, for example the word “be” is mentioned “10” times in the Shakespeare_Complete_Works.txt file.  </p>
+Furthermore the <a href="https://github.com/Hallur20/Assignment5Algorithms/blob/master/src/algorithmsassignment5/Trie.java">“Trie”</a> class also contains a “get” method which makes it possible to search for a word in the trie, and then get the value of that word in return. The value in this case is the number of mentions it has in the complete book of Shakespeare, for example the word “be” is mentioned “7092” times in the Shakespeare_Complete_Works.txt file.  </p>
 
 <h2>The first image shows when we insert a word to the trie</h2>
 
